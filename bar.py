@@ -14,11 +14,11 @@ import seaborn as sns
 # 2. Create a SQLAlchemy Engine and Fetch Data
 ###############################################################################
 # Replace placeholders with your actual credentials
-host = "computer-vision-cluster-do-user-286562-0.b.db.ondigitalocean.com"
-port = 25060
-user = "nikolai-mysql5"
-password = "xqxyq40to215zr3n"
-database = "hp_data"
+host = classified
+port = classified
+user = classified
+password = classified
+database = classified
 
 # This string uses the 'mysql+mysqlconnector' or 'mysql+pymysql' dialect;
 # either will work, provided the appropriate driver is installed (pymysql or mysql-connector).
