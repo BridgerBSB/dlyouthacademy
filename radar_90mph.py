@@ -4,9 +4,7 @@ import pandas as pd
 import sqlalchemy
 
 # Connect to the database
-engine_hp_data = sqlalchemy.create_engine(
-    "mysql+pymysql://nikolai-mysql5:xqxyq40to215zr3n@computer-vision-cluster-do-user-286562-0.b.db.ondigitalocean.com:25060/hp_data"
-)
+engine_hp_data = sqlalchemy.create_engine(classified)
 
 # Define the SQL query
 query = """
